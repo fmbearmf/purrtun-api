@@ -1,6 +1,6 @@
 {
   "name": "purrtun-api",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Library to make calls to the Purrtun API.",
   "license": "MPL-2.0",
   "main": "./lib/index.js",

@@ -6,3 +6,4 @@ export { Portfolio } from "./commands/Portfolio";
 export { Rally } from "./commands/Rally";
 export { Register } from "./commands/Register";
 export { Sell } from "./commands/Sell";
+export { GetStockID } from "./commands/GetStockID";
