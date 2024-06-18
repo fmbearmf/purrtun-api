@@ -19,7 +19,7 @@ export async function GetStockID(stock: string): Promise<APIResponse> {
         const error = await response.arrayBuffer();
         const unpacked = await unpack(new Uint8Array(error));
 
-        throw new APIError("Daily POST error", status, headers, unpacked);
+        throw new APIError("GetStockID POST error", status, headers, unpacked);
     } 
 
     const data = await response.arrayBuffer();
