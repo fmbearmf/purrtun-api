@@ -1,0 +1,19 @@
+{
+  "name": "purrtun-api",
+  "version": "1.0.5",
+  "description": "Library to make calls to the Purrtun API.",
+  "license": "MPL-2.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "msgpackr": "^1.10.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0"
+  }
+}
